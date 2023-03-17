@@ -105,11 +105,11 @@ int main()
 	getline(cin, brand);
 	cout << "Enter Color: " << endl;
 	getline(cin, color);
-	cout << "Enter min temperature in cm: " << endl;
+	cout << "Enter min temperature in Celsius: " << endl;
 	cin >> minTemp;
-	cout << "Enter max temperature in cm: " << endl;
+	cout << "Enter max temperature in Celsius: " << endl;
 	cin >> maxTemp;
-	cout << "Enter Power in cm: " << endl;
+	cout << "Enter Power: " << endl;
 	cin >> power;
 	
 	IroningMachine* ironing_machine = new IroningMachine(brand, color, minTemp, maxTemp, power);
