@@ -91,7 +91,7 @@ public:
 	{
 		cout << "Brand: " << brand << endl;
 		cout << "Color: " << color << endl;
-		cout << "Size: " << size << " l" << endl;
+		cout << "Size: " << size << " L" << endl;
 		cout << "Max Temperature: " << maxTemp << "C°" << endl;
 		cout << "Power: " << power << endl;
 	}
@@ -105,11 +105,11 @@ int main()
 	getline(cin, brand);
 	cout << "Enter Color: " << endl;
 	getline(cin, color);
-	cout << "Enter size in l: " << endl;
+	cout << "Enter size in L: " << endl;
 	cin >> size;
-	cout << "Enter max temperature in cm: " << endl;
+	cout << "Enter max temperature in Celsius: " << endl;
 	cin >> maxTemp;
-	cout << "Enter Power in cm: " << endl;
+	cout << "Enter Power: " << endl;
 	cin >> power;
 
 	Boiler* boiler = new Boiler(brand, color, size, maxTemp, power);
